@@ -1,0 +1,16 @@
+{
+  "name": "com.morelinq.lib",
+  "version": "1.0.0",
+  "displayName": "morelinq",
+  "description": "morelinq",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+ "keywords": [
+    "scalar",
+    "number",
+    "decimal"
+  ],
+  "author": {
+    "name": "MoreLinq"
+  }
+}
