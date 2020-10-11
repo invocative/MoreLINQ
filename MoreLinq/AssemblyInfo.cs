@@ -44,3 +44,6 @@ using System.Runtime.InteropServices;
 
 [assembly: Guid("fc632c9d-390e-4902-8c1c-3e57b08c1d38")]
 #endif
+#if UNITY_5_6_OR_NEWER
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Reliability", "CS8632:The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.", Scope = "module")]
+#endif
